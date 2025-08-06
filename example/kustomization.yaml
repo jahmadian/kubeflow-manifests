@@ -122,4 +122,4 @@ patches:
       name: istio-ingressgateway
       namespace: kube-system
   - path: crd-annotation-patch.yaml
-  - path: users/jalil-profile.yaml
+  - path: jalil-profile.yaml
