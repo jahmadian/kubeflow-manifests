@@ -97,6 +97,8 @@ resources:
   - ../applications/kserve/models-web-app/overlays/kubeflow
   # Spark Operator
   - ../applications/spark/spark-operator/overlays/kubeflow
+  # Additional users
+  - ../users/jalil-profile.yaml
 
 # Ray is an experimental integration
 # Here is the documentation for Ray: https://docs.ray.io/en/latest/
