@@ -1,0 +1,31 @@
+# crd-annotation-patch.yaml
+
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: inferenceservices.serving.kserve.io
+  annotations: null # This removes all annotations
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: paddlejobs.kubeflow.org
+  annotations: null
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: pytorchjobs.kubeflow.org
+  annotations: null
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: scheduledsparkapplications.sparkoperator.k8s.io
+  annotations: null
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: sparkapplications.sparkoperator.k8s.io
+  annotations: null

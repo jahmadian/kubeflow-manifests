@@ -117,8 +117,10 @@ components:
 
 patches:
   - path: istio-ingress-loadbalancer.yaml
-
     target:
       kind: Service
       name: istio-ingressgateway
       namespace: kube-system
+  - path: crd-annotation-patch.yaml
+    target:
+      kind: CustomResourceDefinition
