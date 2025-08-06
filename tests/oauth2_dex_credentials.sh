@@ -28,6 +28,12 @@ data:
       hashFromEnv: DEX_USER_PASSWORD
       username: user
       userID: "15841185641784"
+    - email: jalil.ahmadian@vistex.com
+      hash: $2b$12$v3CzJdFWSgdRIrhk2cGh5u3RDWFszUGshWpsyfT.JImkYexMlotMK
+      username: jalil.ahmadian
+    - email: varma.datla@vistex.com
+      hash: $2b$12$v3CzJdFWSgdRIrhk2cGh5u3RDWFszUGshWpsyfT.JImkYexMlotMK
+      username: varma.datla
     staticClients:
     - idEnv: OIDC_CLIENT_ID
       redirectURIs: ["/oauth2/callback"]
