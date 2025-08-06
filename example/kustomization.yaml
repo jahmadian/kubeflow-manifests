@@ -114,3 +114,10 @@ components:
 # - ../experimental/security/PSS/dynamic/baseline
 # Uncomment to enable restricted level standards for dynamic namespaces
 # - ../experimental/security/PSS/dynamic/restricted
+
+patches:
+  - path: istio-ingress-loadbalancer.yaml
+    target:
+      kind: Service
+      name: istio-ingressgateway
+      namespace: istio-system

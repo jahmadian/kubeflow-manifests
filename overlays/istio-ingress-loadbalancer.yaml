@@ -1,0 +1,12 @@
+# istio-ingress-loadbalancer.yaml
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: istio-ingressgateway
+  namespace: istio-system
+  annotations:
+    # Explicitly tells GKE to provision an external load balancer.
+    cloud.google.com/load-balancer-type: "External"
+spec:
+  type: LoadBalancer
