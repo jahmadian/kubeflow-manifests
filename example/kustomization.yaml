@@ -116,7 +116,7 @@ components:
 # - ../experimental/security/PSS/dynamic/restricted
 
 patches:
-  - path: ../overlays/istio-ingress-loadbalancer.yaml
+  - path: istio-ingress-loadbalancer.yaml
 
     target:
       kind: Service
