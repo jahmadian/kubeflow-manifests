@@ -117,7 +117,8 @@ components:
 
 patches:
   - path: ../overlays/istio-ingress-loadbalancer.yaml
+
     target:
       kind: Service
       name: istio-ingressgateway
-      namespace: istio-system
+      namespace: kube-system
